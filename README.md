@@ -2,45 +2,50 @@
 
 **Food** Circle 🍎
 Live Site: [https://food-circle-fce91.web.app/]
-Food Circle is a heartfelt community initiative designed to bridge the gap between surplus food and those who can benefit from it. Our mission is simple yet profound: to significantly reduce food waste and strengthen community bonds by making the act of sharing food effortless, safe, and impactful.
+### 🚀 Live Site URL
 
-✨ Features
-Share Your Surplus Food Easily: 🍽️
-Quickly list any extra food items you have, complete with essential details like the food's name, quantity, expiry date, pickup location, and appealing photos.
+[Insert your live link here]
 
-Discover Available Foods Nearby: 📍
-Browse through a diverse array of food items generously shared by others in your local community. Find exactly what you need, when you need it.
+---
 
-Manage Your Donations with Ease: 📋
-Keep track of every food item you've listed. Update their status or remove them once they've found a new home.
+### 🍽️ SharePlate: Community Food Sharing Hub
 
-Monitor Your Food Requests: 👀
-Stay informed about the food items you've requested from other users, ensuring you don't miss out on a valuable share.
+A full-stack web application designed to combat food waste by connecting users who have surplus food with those who need it. This platform provides a secure and intuitive interface for managing food listings, making requests, and fostering a community dedicated to food sharing. Built with a modern tech stack, the website is highly responsive and designed to be visually appealing and user-friendly.
 
-Secure & Seamless Authentication: 🔐
-Powered by Firebase, we offer secure user authentication through both traditional email/password and convenient Google Sign-In options.
+---
 
-Flawless Responsive Design: 📱
-Enjoy a consistent and user-friendly experience across all your devices, from the largest desktop monitors to the smallest smartphone screens.
+### ✨ Key Features
 
-Essential Food Safety Guidelines: 🛡️
-Access dedicated sections on smart food sharing practices and crucial handling tips, ensuring every shared meal is safe and delicious.
+* **Comprehensive Authentication:** 🔑 Secure **login and registration** using email/password, with robust password validation. The application also supports social login with Google/GitHub for a seamless user experience.
+* **JWT Security:** 🛡️ Private routes are protected using **JSON Web Tokens (JWT)**. A token is created upon login and stored on the client side to authenticate and verify users for secure access to features.
+* **Full CRUD Functionality:** 📝 Authenticated users can **add new food items**, **manage their own listings** by updating or deleting them, and view available food from other users.
+* **Dynamic Food Listings:** 🔎 The "Available Foods" page allows users to **search for foods by name** and **sort listings by their expiry date**. The layout can also be toggled between a two- and three-column view for a customized Browse experience.
+* **Food Request System:** 🛒 Users can **request food** through a modal on the food details page. This action changes the food's status and adds it to the requester's "My Food Request" list.
+* **User-Centric Management:** 🧑‍💻 The "Manage My Foods" page gives users a dedicated space to view their own food listings in a table and perform update or delete actions. The "My Food Request" page tracks all their active requests.
+* **Advanced Frontend Concepts:** ⚛️ The project utilizes **TanStack Query** for efficient API data fetching and mutations, and **Framer Motion** for beautiful animations on the home page.
+* **Recruiter-Friendly Design:** 🎨 The website is built with a focus on clean design, proper alignment, and pleasing color contrast to ensure a professional and impressive user interface.
 
-Intuitive User Interface: 🌟
-Navigate effortlessly through our clean, well-organized interface designed for clarity and ease of use.
+---
 
-🛠️ Technologies Under the Hood
-Frontend 💻
-React.js: Building dynamic and interactive user interfaces.
-React Router DOM: Handling smooth client-side navigation.
-Tailwind CSS: Crafting a stunning and responsive design with utility-first classes.
-React Pro Sidebar: Delivering a sleek and adaptable mobile navigation menu.
-React Icons & Lucide React: Enhancing the UI with beautiful, scalable icons.
-TanStack Query (React Query): Powering efficient data fetching, caching, and state synchronization.
-Firebase (Client SDK): Managing robust user authentication.
-Backend ☁️
-Node.js & Express.js: Our robust and efficient server-side framework.
-MongoDB: Storing all your food listings, requests, and user data.
-Vercel: Hosting our reliable backend API.
-Firebase (Admin SDK): For secure server-side Firebase interactions.
-CORS: Ensuring secure and authorized cross-origin requests.
+### 🛠️ Technologies Used
+
+#### **Client-Side**
+
+* **React:** ⚛️ The core JavaScript library for building the single-page application's user interface.
+* **React Router DOM:** ➡️ For handling client-side routing, private routes, and state preservation.
+* **Firebase Authentication:** 🔐 Used for all user authentication methods.
+* **TanStack Query:** 🚀 For managing server state, caching, and making API requests.
+* **Framer Motion:** ✨ For implementing engaging animations.
+* **Toast / SweetAlert:** 🔔 For providing a smooth user experience with notifications.
+* **Axios:** 🌐 Used for making API requests, potentially with a custom hook.
+
+#### **Server-Side**
+
+* **Node.js & Express.js:** ⚙️ The backend runtime and framework for building a RESTful API.
+* **MongoDB:** 📂 A NoSQL database used to store all food and user data.
+* **JSON Web Tokens (JWT):** 🔒 For creating and verifying tokens to secure API routes.
+
+
+### 🚀 Hosting
+
+The client is hosted on **[Netlify / Surge]** and the server is hosted on **Vercel**. The application is configured to handle page reloads on any route without errors, and the domain is authorized with Firebase for authentication.
