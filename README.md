@@ -1,10 +1,10 @@
 
 
 **Food** Circle 🍎
-Live Site:  https://food-circle-fce91.web.app/
+
 ### 🚀 Live Site URL
 
-[Insert your live link here]
+[ https://food-circle-fce91.web.app/]
 
 ---
 
